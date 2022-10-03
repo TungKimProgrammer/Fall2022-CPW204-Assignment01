@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: auto;
+    width: 700px;
+	padding: 0 2em 1em;
+    border: 3px solid blue;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+	color: blue;
+	margin-bottom: .25em;
+}
+
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+	margin-right: .5em;
+    margin-bottom: .5em;
+    width: 11em;   
+}
+
+span {
+	color: red;
+    font-size: 12px;
+}
+
+#miles, #gallons, #mpg {
+    width: 200px;
+}
+
+#calculate, #clear {
+    width: 208px ;
+}
+
+#calculate {
+    background-color: cyan;
+}
+
+.display-car {
+    display: block;
+}

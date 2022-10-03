@@ -187,3 +187,5 @@ function showImage(srcOfImage:string, altText:string){
     x.setAttribute("alt", altText);
     document.body.appendChild(x);
     }
+
+// try 

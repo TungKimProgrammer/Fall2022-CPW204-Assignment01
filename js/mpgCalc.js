@@ -31,6 +31,7 @@ function isValid() {
         else if (isNaN(parseFloat(gallons)) || parseFloat(gallons) <= 0) {
             getEbyId("gallonsError").innerHTML = "Gallons of gas must be a valid number!";
         }
+        textToSpeech("Please try again!");
         return false;
     }
 }

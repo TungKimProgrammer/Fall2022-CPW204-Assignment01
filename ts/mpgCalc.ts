@@ -55,6 +55,8 @@ function isValid():boolean{
         else if (isNaN(parseFloat(gallons)) || parseFloat(gallons) <= 0 ) {
             getEbyId("gallonsError").innerHTML = "Gallons of gas must be a valid number!";
         }
+        
+        textToSpeech("uh----oh");
 
         return false;
     }

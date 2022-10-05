@@ -56,7 +56,7 @@ function isValid():boolean{
             getEbyId("gallonsError").innerHTML = "Gallons of gas must be a valid number!";
         }
         
-        textToSpeech("uh----oh");
+        textToSpeech("Please try again!");
 
         return false;
     }

@@ -72,7 +72,7 @@ function main(){
         var gallons = parseFloat(castInput("gallons").value);
         var milesPerGallon = calculateMPG(miles,gallons);
         displayResults(milesPerGallon);
-        setTimeout(() => '', 5000);
+        // setTimeout(() => '', 5000);
     }
         
 }
